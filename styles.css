@@ -6,6 +6,11 @@
     scroll-behavior: smooth;
 }
 
+section {
+    width: 100%;
+    position: relative;
+}
+
 /* Header Items */
 header {
     text-align: center;
@@ -27,6 +32,7 @@ header {
 
 /* Nav Items */
 nav {
+    z-index: 1030;
     position: fixed;
     top: 0;
     left: 0;
@@ -129,3 +135,32 @@ nav {
 }
 
 /* Projects Section */
+.projects {
+    padding: 50px;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+}
+
+.projects h1 {
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Weather App */
+.project-content {
+    position: relative;
+}
+
+.project-content img {
+    position:relative;
+    width: 100%;
+    filter: brightness(50%);
+    opacity: 0.9;
+    transition: all .3s;
+  }
+  
+  .project-content a:hover img {
+    filter: brightness(100%);
+    opacity: 1;
+  }
+  
