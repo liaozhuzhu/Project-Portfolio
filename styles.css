@@ -105,7 +105,9 @@ nav {
     text-align: inline;
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to bottom, rgba(255,255,0), rgb(255, 255, 255));
-    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    width: 100%;
 }
 
 #about-section img {
