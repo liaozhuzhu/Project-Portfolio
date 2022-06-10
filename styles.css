@@ -5,8 +5,30 @@
     scroll-behavior: smooth;
 }
 
+/* Header Items */
+header {
+    text-align: center;
+    color: #000;
+    background-color: black;
+    background: url(Images/capitol.jpeg);
+    background-repeat: no-repeat;
+    *background-attachment: scroll;
+    background-attachment: fixed;
+    background-position: left center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 100px;
+    padding-top: 10px;
+}
+
 /* Nav Items */
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,43 +65,27 @@ nav {
     text-decoration: none;
 }
 
-.nav-links a:hover {
-    color: rgb(255,255,0);
-}
-
-/* Header Items */
-header {
-    background: url(Images/capitol.jpeg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
+/* Non-navbar Items */
 .intro img {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     outline: 10px solid rgb(255, 255, 0);
     margin: auto;
-    margin-top: 60px;
+    margin-top: 100px;
     display: block;
 }
 
 .intro h1 {
-    text-align: center;
-    color: white;
-    font-style: italic;
+    font-style: none;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 15px;
+    margin: 30px;
     font-size: 80px;
 }
 
 .intro h2 {
-    text-align: center;
-    color: white;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 15px;
+    margin: 30px;
     font-size: 40px;
 }
