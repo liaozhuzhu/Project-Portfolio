@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto-Slab&display=swap');
 * {  
     margin: 0;
     padding: 0;
@@ -8,7 +9,7 @@
 /* Header Items */
 header {
     text-align: center;
-    color: #000;
+    color: #fff;
     background-color: black;
     background: url(Images/capitol.jpeg);
     background-repeat: no-repeat;
@@ -21,6 +22,7 @@ header {
     background-size: cover;
     padding-bottom: 100px;
     padding-top: 10px;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
 }
 
 /* Nav Items */
@@ -65,6 +67,10 @@ nav {
     text-decoration: none;
 }
 
+.nav-links a:hover {
+    color: rgb(255, 255, 0);
+}
+
 /* Non-navbar Items */
 .intro img {
     width: 300px;
@@ -78,14 +84,33 @@ nav {
 
 .intro h1 {
     font-style: none;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 30px;
     font-size: 80px;
 }
 
 .intro h2 {
     font-style: italic;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 30px;
     font-size: 40px;
+}
+
+/* About Me Section */
+#about-section {
+    text-align: center;
+    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, rgba(255,255,0), rgb(255, 255, 255));
+}
+
+#about-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    outline: 10px solid rgb(0, 0, 0);
+    margin: auto;
+    display: block;
+}
+
+#about-section h1 {
+    margin: 10px;
+    font-size: 50px;
 }
