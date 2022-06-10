@@ -35,7 +35,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(75, 75, 75));
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), rgb(108, 108, 108));
 }
 
 .name a {
@@ -125,4 +125,7 @@ nav {
     font-size: 30px;
     display: block;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+/* Projects Section */
