@@ -185,7 +185,17 @@ nav {
     position: relative;
     width: 100%;
     margin: auto;
-    transition: all .3s;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .project-container, .project-content
+    {
+        display: block; 
+        float: none; 
+        width: 100%;
+        padding: 20px 0;
+    }
 }
 
 .project-content img {
