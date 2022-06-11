@@ -14,7 +14,7 @@ section {
 /* Header Items */
 header {
     text-align: center;
-    color: #fff;
+    color: #EEF0EE;
     background-color: black;
     background: url(Images/background.png);
     background-repeat: no-repeat;
@@ -41,11 +41,11 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #0F1407);
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #508415);
 }
 
 .name a {
-    color: #fff;
+    color: #EEF0EE;
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 50px;
@@ -53,7 +53,7 @@ nav {
 }
 
 .name a:hover {
-    color: rgb(255, 255, 0);
+    color: #508415;
 }
 
 .nav-links {
@@ -64,7 +64,7 @@ nav {
 }
 
 .nav-links a {
-    color: white;
+    color: #EEF0EE;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: rgb(255, 255, 0);
+    color: #508415;
 }
 
 /* Non-navbar Items */
@@ -82,7 +82,7 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    outline: 10px solid rgb(255, 255, 0);
+    outline: 10px solid #A1C349;
     margin: auto;
     margin-top: 100px;
     display: block;
@@ -193,7 +193,7 @@ nav {
     {
         display: block; 
         float: none; 
-        width: 100%;
+        width: 70%;
         padding: 20px 0;
     }
 }
@@ -215,13 +215,21 @@ nav {
     opacity: 1;
 }
 
+.project-content:hover h2 {
+    font-size: 25px;
+}
+
+.project-content:hover p {
+    font-size: 18px;
+}
+
 .project-name {
     position: absolute;
     width: 100%;
     font-weight: 700;
     font-size: 20px;
     font-family: "Oswalk", Arial, Helvetica, sans-serif;
-    color: rgb(34, 0, 255);
+    color: #508415;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -247,7 +255,7 @@ nav {
 
 /* Socials / Contact Section */
 #socials-section {
-    background-color: skyblue;
+    background-color: #A1C349;
     position: absolute;
     text-align: center;
     margin-top: 50px;
@@ -256,7 +264,7 @@ nav {
 #socials-section h1 {
     font-size: 40px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
-    color: #fff;
+    color: #0F1407;
     margin-top: 10px;
     text-align: center;
 }
