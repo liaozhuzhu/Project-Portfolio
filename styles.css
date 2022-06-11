@@ -193,17 +193,6 @@ nav {
     margin: auto;
 }
 
-@media only screen and (max-width: 767px)
-{
-    .project-container, .project-content
-    {
-        display: block; 
-        float: none; 
-        width: 70%;
-        padding: 20px 0;
-    }
-}
-
 .project-content img {
     position:relative;
     width: 100%;
@@ -285,4 +274,32 @@ nav {
 
 .social-image {
     width: 100%;
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px)
+{
+    .project-container, .project-content
+    {
+        display: block; 
+        float: none; 
+        width: 70%;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .social-container
+    { 
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .project-content
+    { 
+        width: 350px;
+    }
 }
