@@ -239,3 +239,34 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#project-outro {
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+/* Socials / Contact Section */
+#socials-section {
+    background-color: skyblue;
+    position: absolute;
+    text-align: center;
+}
+#socials-section h1 {
+    font-size: 50px;
+    font-family: "Oswald", Arial, Helvetica, sans-serif;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.social-container {
+    display: inline-block;
+    margin: 10px;
+    margin-top: 20px;
+    width: 4%;
+    text-align: center;
+}
+
+.social-image {
+    width: 100%;
+}
