@@ -106,7 +106,7 @@ nav {
 #about-section {
     text-align: inline;
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom, #508415, rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, #A1C349, rgb(255, 255, 255));
     padding-top: 80px;
     padding-bottom: 80px;
     width: 100%;
@@ -116,12 +116,13 @@ nav {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    outline: 10px solid rgb(0, 0, 0);
+    outline: 10px solid #EEF0EE;
     display: inline;
     margin-left: 50px;
 }
 
 #about-section h1 {
+    color: #0F1407;
     margin: 10px;
     font-size: 50px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
@@ -129,12 +130,14 @@ nav {
 }
 
 #about-section #description {
+    color: #0F1407;
     font-size: 20px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     display: inline;
 }
 
 #about-section #p-text {
+    color: #0F1407;
     font-size: 30px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     display: block;
@@ -163,11 +166,13 @@ nav {
 #projects-section h1 {
     font-size: 80px;
     margin-top: 60px;
+    color: #0F1407;
 }
 
 #projects-section #project-intro-desc {
     font-size: 20px;
     margin-bottom: 50px;
+    color: #0F1407;
 }
 
 /* Project Rows */
@@ -242,7 +247,7 @@ nav {
     font-size: 15px;
     font-family: "Oswalk", Arial, Helvetica, sans-serif;
     font-style: none;
-    color: rgb(0, 0, 0);
+    color: #0F1407;;
     top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
