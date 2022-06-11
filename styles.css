@@ -16,7 +16,7 @@ header {
     text-align: center;
     color: #fff;
     background-color: black;
-    background: url(Images/capitol.jpeg);
+    background: url(Images/background.png);
     background-repeat: no-repeat;
     *background-attachment: scroll;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), rgb(108, 108, 108));
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #0F1407);
 }
 
 .name a {
@@ -98,7 +98,7 @@ nav {
 .intro h2 {
     font-style: italic;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
-    margin: 30px;
+    margin: 40px;
     font-size: 40px;
 }
 
@@ -106,7 +106,7 @@ nav {
 #about-section {
     text-align: inline;
     font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to bottom, rgba(255,255,0), rgb(255, 255, 255));
+    background-image: linear-gradient(to bottom, #508415, rgb(255, 255, 255));
     padding-top: 80px;
     padding-bottom: 80px;
     width: 100%;
@@ -250,19 +250,21 @@ nav {
     background-color: skyblue;
     position: absolute;
     text-align: center;
+    margin-top: 50px;
+    height: 150px;
 }
 #socials-section h1 {
-    font-size: 50px;
+    font-size: 40px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     color: #fff;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 
 .social-container {
     display: inline-block;
     margin: 10px;
-    margin-top: 20px;
+    margin-top: 5px;
     width: 4%;
     text-align: center;
 }
