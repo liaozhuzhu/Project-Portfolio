@@ -53,7 +53,7 @@ nav {
 }
 
 .name a:hover {
-    color: #508415;
+    color: #A1C349;
 }
 
 .nav-links {
@@ -74,7 +74,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #508415;
+    color: #A1C349;
 }
 
 /* Non-navbar Items */
@@ -115,7 +115,7 @@ nav {
 #about-section img {
     width: 300px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 20%;
     outline: 10px solid #EEF0EE;
     display: inline;
     margin-left: 50px;
