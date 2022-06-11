@@ -16,7 +16,7 @@ header {
     text-align: center;
     color: #EEF0EE;
     background-color: black;
-    background: url(Images/background.png);
+    background: url(images/background.png);
     background-repeat: no-repeat;
     *background-attachment: scroll;
     background-attachment: fixed;
