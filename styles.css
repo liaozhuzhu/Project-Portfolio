@@ -93,6 +93,7 @@ nav {
     outline: 10px solid #A1C349;
     display: inline-block;
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .intro img {
