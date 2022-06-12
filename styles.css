@@ -70,7 +70,7 @@ nav {
 .nav-links a {
     color: #EEF0EE;
     letter-spacing: 3px;
-    font-weight: bold;
+    font-weight: none;
     font-size: 14px;
     border-radius: 10px 10px 10px 10px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
@@ -79,6 +79,10 @@ nav {
 
 .nav-links a:hover {
     color: #A1C349;
+}
+
+.nav-links #resume-button {
+    font-weight: bold;
 }
 
 /* Non-navbar Items */
