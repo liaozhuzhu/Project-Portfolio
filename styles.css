@@ -378,7 +378,7 @@ nav {
 @media only screen and (max-width: 767px) {
     .nav
     {
-        background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #0F1407);
+        background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #000);
     }
 }
 
@@ -398,7 +398,7 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #0F1407);
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #000);
         border-bottom-left-radius: 50px;
     }
 
