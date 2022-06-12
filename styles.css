@@ -41,7 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #508415);
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #1b1f14);
 }
 
 .name a {
@@ -61,7 +61,7 @@ nav {
 }
 
 .name a:hover {
-    color: #0F1407;
+    color: #A1C349;
 }
 
 .nav-links {
@@ -72,7 +72,7 @@ nav {
 }
 
 .nav-links a {
-    color: #0F1407;
+    color: #EEF0EE;
     letter-spacing: 3px;
     font-weight: none;
     font-size: 14px;
@@ -82,7 +82,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #EEF0EE;
+    color: #A1C349;
 }
 
 .nav-links #resume-button {
@@ -253,7 +253,7 @@ nav {
     height: 250px;
     opacity: 0.30;
     border-radius: 20px;
-    outline: 2px solid black;
+    outline: 2px solid #0F1407;
 }
 
 .project-content:hover {
@@ -379,10 +379,11 @@ nav {
     body {
         overflow-x: hidden;
     }
+
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 45vh;
         top: 8vh;
         display: flex;
         flex-direction: column;
@@ -390,14 +391,23 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        background-color: #fdf7d6;
+        background-image: linear-gradient(to right, rgb(255, 0, 0, 0), #0F1407);
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #0F1407);
+        border-bottom-left-radius: 50px;
     }
+
+    .nav-links a{
+        font-size: 15px;
+    }
+
     .nav-links li {
         opacity: 0;
     }
+
     .menu {
         display: block;
     }
+
 }
 
 .nav-active {
@@ -405,6 +415,7 @@ nav {
 }
 
 @keyframes navLinkFade {
+
     from {
         opacity: 0;
         transform: translateX(50px);
@@ -413,6 +424,7 @@ nav {
         opacity: 1;
         transform: translateX(0px);
     }
+
 }
 
 /* Menu Animation After Clicked */
