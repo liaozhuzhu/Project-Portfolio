@@ -52,6 +52,10 @@ nav {
     font-family:"Oswald", Arial, Helvetica, sans-serif;
 }
 
+.nav .icon {
+    display: none;
+}
+
 .name a img{
     width: 45px;
 }
@@ -96,6 +100,19 @@ nav {
 
 #home-button:hover {
     font-size: 52px;
+}
+
+/* mobile menu button */
+.menu {
+    display: none;
+    cursor: pointer;
+}
+
+.menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #0F1407;
+    margin: 5px;
 }
 
 /* Non-navbar Items */
@@ -354,5 +371,45 @@ nav {
     {   
         position: relative;
         left: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        overflow-x: hidden;
+    }
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        background-color: #fdf7d6;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .menu {
+        display: block;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
     }
 }
