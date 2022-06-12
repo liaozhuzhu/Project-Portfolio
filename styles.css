@@ -85,6 +85,19 @@ nav {
     font-weight: bold;
 }
 
+/* button hover animation */
+.nav-buttons {
+    transition: .3s;
+}
+
+.nav-buttons:hover {
+    font-size: 16px;
+}
+
+#home-button:hover {
+    font-size: 52px;
+}
+
 /* Non-navbar Items */
 .image-border {
     width: 300px;
