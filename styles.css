@@ -118,20 +118,23 @@ nav {
 
 /* Non-navbar Items */
 .image-border {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    outline: 10px solid #A1C349;
-    display: inline-block;
     margin-top: 100px;
-    overflow: hidden;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+    border: 5px solid #EEF0EE;
 }
 
 .intro img {
     width: 300px;
     height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
-    display: block;
+    -khtml-border-radius: 50%;
+    vertical-align: middle;
 }
 
 .intro h1 {
@@ -159,12 +162,15 @@ nav {
 }
 
 .square-image-border {
+    margin-left: 60px;
     width: 300px;
     height: 300px;
-    border-radius: 20%;
-    outline: 10px solid #0F1407;
     display: inline-block;
-    margin-left: 60px;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 50%;
+    border-radius: 20%;
+    -khtml-border-radius: 50%;
+    border: 5px solid #EEF0EE;
 }
 
 #about-section img {
