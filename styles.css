@@ -57,7 +57,7 @@ nav {
 }
 
 .name a:hover {
-    color: #A1C349;
+    color: #0F1407;
 }
 
 .nav-links {
@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-links a {
-    color: #EEF0EE;
+    color: #0F1407;
     letter-spacing: 3px;
     font-weight: none;
     font-size: 14px;
@@ -78,7 +78,7 @@ nav {
 }
 
 .nav-links a:hover {
-    color: #A1C349;
+    color: #EEF0EE;
 }
 
 .nav-links #resume-button {
@@ -189,7 +189,7 @@ nav {
 }
 #projects-section h1 {
     font-size: 80px;
-    margin-top: 50px;
+    margin-top: 25px;
     color: #0F1407;
 }
 
