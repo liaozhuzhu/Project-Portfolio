@@ -194,31 +194,19 @@ nav {
     margin-left: 50px;
 }
 
-/* Projects Section */
-.projects {
-    padding: 50px;
-    font-family: "Roboto Slab", Arial, Helvetica, sans-serif;
-}
-
-.projects h1 {
-    font-size: 80px;
-    margin: auto;
-    text-align: center;
-}
-
 /* Project Links */
-#projects-section {
+#project-section {
     text-align: center;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     padding-top: 10px;
 }
-#projects-section h1 {
+#project-section h1 {
     font-size: 80px;
     margin-top: 25px;
     color: #0F1407;
 }
 
-#projects-section #project-intro-desc {
+#project-section #project-intro-desc {
     font-size: 20px;
     margin-bottom: 50px;
     color: #0F1407;
@@ -297,14 +285,14 @@ nav {
 }
 
 /* Socials / Contact Section */
-#socials-section {
+#social-section {
     background-color: #A1C349;
     position: absolute;
     text-align: center;
     margin-top: 50px;
     height: 150px;
 }
-#socials-section h1 {
+#social-section h1 {
     font-size: 40px;
     font-family: "Oswald", Arial, Helvetica, sans-serif;
     color: #0F1407;

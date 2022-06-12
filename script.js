@@ -24,3 +24,24 @@ const navSlide = () => {
 }
 
 navSlide();
+function homeScrollView() {
+  document.getElementById("page-top").scrollIntoView(true);
+
+}
+
+function aboutScrollView() {
+  document.getElementById("about-section").scrollIntoView(true);
+}
+
+function projectScrollView() {
+  document.getElementById("project-section").scrollIntoView(true);
+}
+
+function contactScrollView() {
+  document.getElementById("social-section").scrollIntoView(true);
+}
+
+document.getElementById("home-button").addEventListener("click", homeScrollView);
+document.getElementById("about-button").addEventListener("click", aboutScrollView);
+document.getElementById("project-button").addEventListener("click", projectScrollView);
+document.getElementById("contact-button").addEventListener("click", contactScrollView);
