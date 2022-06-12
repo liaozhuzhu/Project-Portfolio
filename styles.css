@@ -52,6 +52,10 @@ nav {
     font-family:"Oswald", Arial, Helvetica, sans-serif;
 }
 
+.name a img{
+    width: 50px;
+}
+
 .name a:hover {
     color: #A1C349;
 }
