@@ -18,7 +18,7 @@ const navSlide = () => {
 
     //Menu Animation After Clicked
     menu.classList.toggle("toggle");
-
+    
   });
 
 }
