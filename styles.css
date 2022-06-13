@@ -331,7 +331,7 @@ nav {
 }
 
 /* Mobile */
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px)
 {
     .project-container, .project-content
     {
@@ -342,7 +342,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px)
 {
     .social-container
     { 
@@ -350,7 +350,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px)
 {
     .project-content
     { 
@@ -358,7 +358,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px)
 {
     .about-paragraph
     { 
@@ -367,7 +367,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px)
 {
     .description
     {   
@@ -375,7 +375,7 @@ nav {
     }
 }
 
-@media only screen and (max-width: 767px)
+@media only screen and (max-width: 1300px) 
 {
     #project-outro
     {   
@@ -384,7 +384,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1300px) {
     body {
         overflow-x: hidden;
     }
