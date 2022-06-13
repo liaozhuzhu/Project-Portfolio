@@ -375,6 +375,15 @@ nav {
     }
 }
 
+@media only screen and (max-width: 767px)
+{
+    #project-outro
+    {   
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
 @media screen and (max-width: 767px) {
     body {
         overflow-x: hidden;
