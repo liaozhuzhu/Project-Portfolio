@@ -72,6 +72,7 @@ nav {
     opacity: 0%;
     position: relative;
     bottom: 25%;
+    margin-top: 12.5px;
 }
 
 .name a #normal-logo:hover {
