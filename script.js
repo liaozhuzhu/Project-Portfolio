@@ -1,3 +1,5 @@
+// Navigation Mobile Functions
+//
 const navSlide = () => {
   const menu = document.querySelector(".menu");
   const nav = document.querySelector(".nav-links");
@@ -24,24 +26,25 @@ const navSlide = () => {
 }
 
 navSlide();
-function homeScrollView() {
-  document.getElementById("page-top").scrollIntoView(true);
 
+// Navigation Scroll Functions
+//
+function scrollView(id) {
+	document.getElementById(id).scrollIntoView(true);
 }
 
-function aboutScrollView() {
-  document.getElementById("about-section").scrollIntoView(true);
-}
+document.getElementById("home-button").addEventListener("click", () => {
+  scrollView("page-top");
+});
 
-function projectScrollView() {
-  document.getElementById("project-section").scrollIntoView(true);
-}
+document.getElementById("about-button").addEventListener("click", () => {
+  scrollView("about-section");
+});
 
-function contactScrollView() {
-  document.getElementById("social-section").scrollIntoView(true);
-}
+document.getElementById("project-button").addEventListener("click", () => {
+  scrollView("project-section");
+});
 
-document.getElementById("home-button").addEventListener("click", homeScrollView);
-document.getElementById("about-button").addEventListener("click", aboutScrollView);
-document.getElementById("project-button").addEventListener("click", projectScrollView);
-document.getElementById("contact-button").addEventListener("click", contactScrollView); 
+document.getElementById("contact-button").addEventListener("click", () => {
+  scrollView("social-section");
+});
