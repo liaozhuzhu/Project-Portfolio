@@ -41,7 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #000);
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #EEF0EE);
 }
 
 .name a {
@@ -56,8 +56,26 @@ nav {
     display: none;
 }
 
-.name a img{
+.name a #normal-logo {
     width: 48px;
+    opacity: 100%;
+    position: relative;
+}
+
+.name a #hover-logo {
+    width: 48px;
+    opacity: 0%;
+    position: relative;
+    right: 50%;
+}
+
+.name a #normal-logo:hover {
+    width: 48px;
+    opacity: 0%;
+}
+
+.name a #hover-logo:hover {
+    opacity: 100%;
 }
 
 .name a:hover {
@@ -72,7 +90,7 @@ nav {
 }
 
 .nav-links a {
-    color: #EEF0EE;
+    color: #508415;
     letter-spacing: 3px;
     font-weight: none;
     font-size: 14px;
@@ -373,7 +391,7 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #000);
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #EEF0EE);
         border-bottom-left-radius: 20px;
     }
 
