@@ -44,4 +44,4 @@ function contactScrollView() {
 document.getElementById("home-button").addEventListener("click", homeScrollView);
 document.getElementById("about-button").addEventListener("click", aboutScrollView);
 document.getElementById("project-button").addEventListener("click", projectScrollView);
-document.getElementById("contact-button").addEventListener("click", contactScrollView);
+document.getElementById("contact-button").addEventListener("click", contactScrollView); 
