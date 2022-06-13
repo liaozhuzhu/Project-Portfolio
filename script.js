@@ -47,4 +47,4 @@ document.getElementById("project-button").addEventListener("click", () => {
 
 document.getElementById("contact-button").addEventListener("click", () => {
   scrollView("social-section");
-});
+}); 
