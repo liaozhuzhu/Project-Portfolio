@@ -48,3 +48,7 @@ document.getElementById("project-button").addEventListener("click", () => {
 document.getElementById("contact-button").addEventListener("click", () => {
   scrollView("social-section");
 }); 
+
+document.getElementById("website-button").addEventListener("click", () => {
+  scrollView("page-top");
+}); 
