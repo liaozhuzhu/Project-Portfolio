@@ -41,7 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #EEF0EE);
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #090b08);
 }
 
 .name a {
@@ -90,7 +90,7 @@ nav {
 }
 
 .nav-links a {
-    color: #508415;
+    color: #EEF0EE;
     letter-spacing: 3px;
     font-weight: none;
     font-size: 14px;
