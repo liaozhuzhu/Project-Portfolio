@@ -41,7 +41,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #010b12);
+    background-image: linear-gradient(to top, rgb(255, 0, 0, 0), #000);
 }
 
 .name a {
@@ -373,7 +373,7 @@ nav {
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
-        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #010b12);
+        background-image: linear-gradient(to bottom, rgb(255, 0, 0, 0), #000);
         border-bottom-left-radius: 20px;
     }
 
