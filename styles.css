@@ -227,12 +227,14 @@ nav {
 }
 
 /* Project Rows */
-.top-container {
+.row-container {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .project-container {
-    display: inline-block;
     margin: 10px;
     width: 20%;
 }
@@ -334,12 +336,21 @@ nav {
 /* Mobile */
 @media only screen and (max-width: 1300px)
 {
+    .row-container
+    {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 1300px)
+{
     .project-container, .project-content
     {
         display: block; 
         float: none; 
         width: 70%;
         padding: 20px 0;
+        width: 350px;
     }
 }
 
@@ -348,14 +359,6 @@ nav {
     .social-container
     { 
         width: 50px;
-    }
-}
-
-@media only screen and (max-width: 1300px)
-{
-    .project-content
-    { 
-        width: 350px;
     }
 }
 
