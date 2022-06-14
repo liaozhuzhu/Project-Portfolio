@@ -29,8 +29,8 @@ navSlide();
 
 // Navigation Scroll Functions
 //
-function scrollView(id) {
-	document.getElementById(id).scrollIntoView(true);
+function scrollView(section) {
+	document.getElementById(section).scrollIntoView(true);
 }
 
 document.getElementById("home-button").addEventListener("click", () => {
