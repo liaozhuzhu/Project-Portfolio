@@ -1,6 +1,6 @@
 # Liao Zhu | Project Portfolio
 
-Website that showcases my projects / interests
+Responsive Website that showcases my projects / interests
 
 Includes navigation links to jump to different sections as well as a link to view my Resume
 
