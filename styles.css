@@ -308,11 +308,13 @@ nav {
 
 /* Socials / Contact Section */
 #social-section {
+    display: flex;
+    flex-direction: column;
     background-color: #A1C349;
-    position: absolute;
-    text-align: center;
     margin-top: 50px;
     height: 150px;
+    justify-content: center;
+    align-items: center;
 }
 #social-section h1 {
     font-size: 40px;
@@ -322,16 +324,17 @@ nav {
     text-align: center;
 }
 
-.social-container {
-    display: inline-block;
-    margin: 10px;
-    margin-top: 5px;
-    width: 4%;
-    text-align: center;
+.top-container {
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+    justify-content: center;
+    gap: 15px;
 }
 
 .social-image {
-    width: 100%;
+    width: 50px;
+    height: 50px;
 }
 
 /* Mobile */
@@ -355,14 +358,17 @@ nav {
     }
 }
 
+/* Project Section */
 @media only screen and (max-width: 1300px)
 {
-    .social-container
+    .social-image
     { 
-        width: 50px;
+        width: 25px;
+        height: 25px;
     }
 }
 
+/* About Section */
 @media only screen and (max-width: 1300px)
 {
     .about-paragraph
@@ -389,6 +395,7 @@ nav {
     }
 }
 
+/* Menu */
 @media screen and (max-width: 1300px) {
     body {
         overflow-x: hidden;
