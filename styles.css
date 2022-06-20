@@ -252,7 +252,7 @@ nav {
     opacity: 0.30;
     border-radius: 20px;
     outline: 2px solid #0F1407;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 /* For My Website Project Only  */
@@ -261,7 +261,7 @@ nav {
 }
 
 .project-content:hover {
-    width: 95%;
+    transform: scale(1.1);
 }
 
 .project-content:hover img {
