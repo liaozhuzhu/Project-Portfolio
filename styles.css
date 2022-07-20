@@ -252,7 +252,7 @@ nav {
     opacity: 0.30;
     border-radius: 20px;
     outline: 2px solid #0F1407;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 /* For My Website Project Only  */
