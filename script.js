@@ -80,7 +80,14 @@ calcDiv.addEventListener("mouseout", ()=> {
   calc.setAttribute("src", "Images/calc.JPG");
 });
 
-// Add Math Game Here 
+let mathDiv = document.getElementById("math-div");
+let math = document.getElementById("math-image");
+mathDiv.addEventListener("mouseover", () => {
+  math.setAttribute("src", "Images/math.gif");
+});
+mathDiv.addEventListener("mouseout", ()=> {
+  math.setAttribute("src", "Images/math.JPG");
+});
 
 let etchDiv = document.getElementById("etch-div");
 let etch = document.getElementById("etch-image");
