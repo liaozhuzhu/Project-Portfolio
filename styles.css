@@ -395,6 +395,57 @@ nav {
     }
 }
 
+/* Project Images */
+@media only screen and (max-width: 1300px) 
+{
+    #todo-image
+    {   
+        content:url("Images/todo.gif");
+    }
+}
+
+@media only screen and (max-width: 1300px) 
+{
+    #weather-image
+    {   
+        content:url("Images/weather.gif");
+    }
+}
+
+@media only screen and (max-width: 1300px) 
+{
+    #calc-image
+    {   
+        content:url("Images/calc.gif");
+    }
+}
+
+/* Add Math Game Here */
+
+@media only screen and (max-width: 1300px) 
+{
+    #etch-image
+    {   
+        content:url("Images/etch.gif");
+    }
+}
+
+@media only screen and (max-width: 1300px) 
+{
+    #sort-image
+    {   
+        content:url("Images/sort.gif");
+    }
+}
+
+@media only screen and (max-width: 1300px) 
+{
+    #todo-image
+    {   
+        content:url("Images/todo.gif");
+    }
+}
+
 /* Menu */
 @media screen and (max-width: 1300px) {
     body {

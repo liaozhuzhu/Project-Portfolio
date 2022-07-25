@@ -52,3 +52,50 @@ document.getElementById("contact-button").addEventListener("click", () => {
 document.getElementById("website-button").addEventListener("click", () => {
   scrollView("page-top");
 });
+// Image Gifs
+let todoDiv = document.getElementById("todo-div");
+let todo = document.getElementById("todo-image");
+todoDiv.addEventListener("mouseover", () => {
+  todo.setAttribute("src", "Images/todo.gif");
+});
+todoDiv.addEventListener("mouseout", ()=> {
+  todo.setAttribute("src", "Images/todo.JPG");
+});
+
+let weatherDiv = document.getElementById("weather-div");
+let weather = document.getElementById("weather-image");
+weatherDiv.addEventListener("mouseover", () => {
+  weather.setAttribute("src", "Images/weather.gif");
+});
+weatherDiv.addEventListener("mouseout", ()=> {
+  weather.setAttribute("src", "Images/weather.JPG");
+});
+
+let calcDiv = document.getElementById("calc-div");
+let calc = document.getElementById("calc-image");
+calcDiv.addEventListener("mouseover", () => {
+  calc.setAttribute("src", "Images/calc.gif");
+});
+calcDiv.addEventListener("mouseout", ()=> {
+  calc.setAttribute("src", "Images/calc.JPG");
+});
+
+// Add Math Game Here 
+
+let etchDiv = document.getElementById("etch-div");
+let etch = document.getElementById("etch-image");
+etchDiv.addEventListener("mouseover", () => {
+  etch.setAttribute("src", "Images/etch.gif");
+});
+etchDiv.addEventListener("mouseout", ()=> {
+  etch.setAttribute("src", "Images/etch.JPG");
+});
+
+let sortDiv = document.getElementById("sort-div");
+let sort = document.getElementById("sort-image");
+sortDiv.addEventListener("mouseenter", () => {
+  sort.setAttribute("src", "Images/sort.gif");
+});
+sortDiv.addEventListener("mouseout", ()=> {
+  sort.setAttribute("src", "Images/sort.JPG");
+});
