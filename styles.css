@@ -414,6 +414,14 @@ nav {
 
 @media only screen and (max-width: 1300px) 
 {
+    #math-image
+    {   
+        content:url("Images/math.gif");
+    }
+}
+
+@media only screen and (max-width: 1300px) 
+{
     #calc-image
     {   
         content:url("Images/calc.gif");
